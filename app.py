@@ -39,7 +39,7 @@ Esta aplicação utiliza Inteligência Artificial (algoritmo **Random Forest**) 
 Desenvolvido como projeto prático para a disciplina de IA da **UNIMAR**.
 """)
 
-st.hr()
+st.divider()
 
 if not artefatos_carregados:
     st.error("Erro: Os arquivos 'modelo_qualidade_ar.pkl' e/ou 'scaler_qualidade_ar.pkl' não foram encontrados no diretório. Certifique-se de executar a célula de exportação do notebook primeiro!")
